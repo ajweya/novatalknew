@@ -1,0 +1,21 @@
+{
+  "name": "novatalk-server",
+  "version": "2.0.0",
+  "description": "NovaTalk v2.0 anonymous real-time communication backend",
+  "main": "server.js",
+  "license": "UNLICENSED",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.0",
+    "socket.io": "^4.7.5"
+  }
+}
