@@ -1,3 +1,4 @@
+
 {
   "name": "novatalk-server",
   "version": "2.0.0",
@@ -9,7 +10,6 @@
     "node": ">=18.0.0"
   },
   "scripts": {
-    "start": "npm install"
     "start": "node server.js"
   },
   "dependencies": {
